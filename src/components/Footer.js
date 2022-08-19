@@ -9,7 +9,7 @@ export default function Footer() {
             <div><a id={lightMode ? "color-fill" : "color-fill__dark-mode"} href="https://www.youtube.com/channel/UCObN423Uc3ZlefU5WxhTaUA"
                     data="YouTube">YouTube</a></div>
             <div className="footer-email">
-                aagzamov.contact@gmail.com
+                <a href="mailto:aagzamov.contact@gmail.com">aagzamov.contact@gmail.com</a>
             </div>
         </div>
     )
