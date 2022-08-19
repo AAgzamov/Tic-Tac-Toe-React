@@ -6,11 +6,11 @@ export default function Header(props) {
     let {lightMode, toggleTheme} = React.useContext(ThemeContext)
     lightMode ? document.body.style.backgroundColor = "white" : document.body.style.backgroundColor = "#0f0f0f"
     if (lightMode) {
-        document.styleSheets[0].cssRules[38] && document.styleSheets[0].deleteRule(38)
-        document.styleSheets[0].insertRule("::selection {color: white; background-color: black;}", 38)
+        document.styleSheets[0].cssRules[47] && document.styleSheets[0].deleteRule(47)
+        document.styleSheets[0].insertRule("::selection {color: white; background-color: black;}", 47)
     } else {
-        document.styleSheets[0].cssRules[38] && document.styleSheets[0].deleteRule(38)
-        document.styleSheets[0].insertRule("::selection {color: black; background-color: white;}", 38)
+        document.styleSheets[0].cssRules[47] && document.styleSheets[0].deleteRule(47)
+        document.styleSheets[0].insertRule("::selection {color: black; background-color: white;}", 47)
     }
     if (props.isMounted) {
         return (
