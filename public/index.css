@@ -180,10 +180,17 @@ button:hover {
     margin: 0 2vw;
 }
 
-.footer-email {
+.footer-email, .footer-email__dark-mode {
     font-family: Noto Mono, monospace;
     font-size: 1vw;
 }
+.footer-email {
+    color: black;
+}
+.footer-email__dark-mode {
+    color: white;
+}
+
 
 #color-fill, #color-fill__dark-mode {
     display: inline-block;
@@ -374,12 +381,18 @@ button:hover {
         margin: 0 5vw;
     }
 
-    .footer-email {
+    .footer-email, .footer-email__dark-mode {
         width: 25vw;
         min-height: 3vh;
         max-height: 5vh;
         overflow-wrap: break-word;
         font-size: 10px;
+    }
+    .footer-email {
+        color: black;
+    }
+    .footer-email__dark-mode {
+        color: white;
     }
 
     @keyframes error-notifier-disappearance {
@@ -524,12 +537,18 @@ button:hover {
         margin: 0 5vw;
     }
 
-    .footer-email {
+    .footer-email, .footer-email__dark-mode {
         width: 25vw;
         min-height: 3vh;
         max-height: 5vh;
         overflow-wrap: break-word;
         font-size: 15px;
+    }
+    .footer-email {
+        color: black;
+    }
+    .footer-email__dark-mode {
+        color: white;
     }
 
     @keyframes error-notifier-disappearance {
