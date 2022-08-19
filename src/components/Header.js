@@ -5,13 +5,13 @@ import {ThemeContext} from "../context/ThemeContext";
 export default function Header(props) {
     let {lightMode, toggleTheme} = React.useContext(ThemeContext)
     lightMode ? document.body.style.backgroundColor = "white" : document.body.style.backgroundColor = "#0f0f0f"
-    // if (lightMode) {
-    //     document.styleSheets[0].cssRules[38] && document.styleSheets[0].deleteRule(38)
-    //     document.styleSheets[0].insertRule("::selection {color: white; background-color: black;}", 38)
-    // } else {
-    //     document.styleSheets[0].cssRules[38] && document.styleSheets[0].deleteRule(38)
-    //     document.styleSheets[0].insertRule("::selection {color: black; background-color: white;}", 38)
-    // }
+    if (lightMode) {
+        document.styleSheets[0].cssRules[38] && document.styleSheets[0].deleteRule(38)
+        document.styleSheets[0].insertRule("::selection {color: white; background-color: black;}", 38)
+    } else {
+        document.styleSheets[0].cssRules[38] && document.styleSheets[0].deleteRule(38)
+        document.styleSheets[0].insertRule("::selection {color: black; background-color: white;}", 38)
+    }
     if (props.isMounted) {
         return (
             <div className={lightMode ? "header" : "header__dark-mode"}>
