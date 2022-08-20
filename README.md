@@ -14,7 +14,7 @@ Deployed [<ins>__here__</ins>](https://aagzamov-tictactoe.herokuapp.com/) on [He
 > #### Installation on local machine guide:
 > If you are on Linux (Debian based):
 > 1. Install NodeJS and npm: `apt install nodejs`
-> 2. Clone the repository: `git clone https://github.com/AAzagmov/Tic-Tac-Toe-React.git`
+> 2. Clone the repository: `git clone https://github.com/AAgzamov/Tic-Tac-Toe-React.git`
 > 3. Navigate to the repository and install dependencies: `npm i`
 > 4. Create bundlers for production version: `npm run build`
 > 5. Finally, serve on localhost: `node server.js`
