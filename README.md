@@ -12,8 +12,7 @@ Deployed [<ins>__here__</ins>](https://aagzamov-tictactoe.netlify.app/) on [Netl
 > <br><br>
 > 
 > #### Installation on local machine guide:
-> If you are on Linux:
-> 0. (If you are using rolling-release distro, update the system).
+> If you are on Linux (If you are using rolling-release distro, update the system):
 > 1. Install NodeJS and npm: `pacman -S nodejs` or `apt install nodejs`
 > 2. Clone the repository: `git clone https://github.com/AAgzamov/Tic-Tac-Toe-React.git`
 > 3. Navigate to the repository and install dependencies: `npm i`
