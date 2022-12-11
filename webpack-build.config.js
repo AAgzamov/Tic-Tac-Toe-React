@@ -6,7 +6,7 @@ module.exports = {
     mode: "production",
     output: {
         filename: "bundle.js",
-        path: path.resolve("build/"),
+        path: path.resolve("public/build/"),
         publicPath: "/",
     },
     module: {
