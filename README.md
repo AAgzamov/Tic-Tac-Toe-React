@@ -3,7 +3,7 @@ This web-based game is created with the help of [ReactJS](https://reactjs.org/) 
 I developed it in order to put in use the knowledge I acquired while on my journey of learning React.
 <br>
 <br>
-Deployed [<ins>__here__</ins>](https://aagzamov-tictactoe.netlify.app/) on [Heroku](https://netlify.com).
+Deployed [<ins>__here__</ins>](https://aagzamov-tictactoe.netlify.app/) on [Netlify](https://netlify.com).
 <br>
 <br>
 <br><br>
